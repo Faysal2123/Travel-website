@@ -212,6 +212,79 @@ select{
     font-weight: bold;
     transform: translate(-50%, 50%);
 }
+.service-container{
+    /* display: flex; */
+}
+.service-info{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 1rem auto;
+}
+.service-info h2{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: center;
+}
+.service-info p{
+    text-align: center;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.service-1{
+    width: 564px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem auto;
+    gap: 30px;
+}
+.service-card{
+  
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    line-height: 26px;   
+    padding: 20px;
+    /* border: 1px solid red; */
+    margin: 2rem auto;
+    border-radius: 1.25rem;
+    
+}
+#colour-1{
+    background-color: rgb(232, 227, 228);
+    box-shadow: 1px 1px 1px 0px red(232,227,228);
+}
+#colour-2{
+    background-color: rgb(236, 207, 172);
+    box-shadow: 1px 1px 1px 0px   rgb(236, 207, 172);
+}
+#colour-3{
+    background-color:rgb(228, 241, 235) ;
+    box-shadow: 1px 1px 1px 0px rgb(228, 241, 235) ;
+}
+.service-card h4{
+    margin: 1rem 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+
+}
+.service-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 1rem auto;
+}
 .footer-section{
     background: rgba(19, 19, 24, 0.05);
     padding: 2rem 0;
